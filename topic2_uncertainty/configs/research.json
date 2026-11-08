@@ -1,0 +1,18 @@
+{
+  "seed": 29,
+  "replicates": 200,
+  "n_donors": 40,
+  "reference_donors": 300,
+  "rows_per_donor": 40,
+  "bootstrap_draws": 2000,
+  "protocols": ["random_row", "held_out_donor"],
+  "models": ["unweighted_logistic", "confidence_weighted_logistic", "expression_only", "random_forest"],
+  "scenarios": [
+    {"name": "clean_linear", "mechanism": "linear", "annotation_error": 0.0, "false_negative_rate": 0.0, "ptm_missingness": 0.0, "donor_effect": 0.5},
+    {"name": "annotation_only", "mechanism": "linear", "annotation_error": 0.3, "false_negative_rate": 0.0, "ptm_missingness": 0.0, "donor_effect": 0.5},
+    {"name": "negative_label_only", "mechanism": "linear", "annotation_error": 0.0, "false_negative_rate": 0.4, "ptm_missingness": 0.0, "donor_effect": 0.5},
+    {"name": "missing_ptm_only", "mechanism": "ptm_dominant", "annotation_error": 0.0, "false_negative_rate": 0.0, "ptm_missingness": 0.4, "donor_effect": 0.5},
+    {"name": "donor_only", "mechanism": "linear", "annotation_error": 0.0, "false_negative_rate": 0.0, "ptm_missingness": 0.0, "donor_effect": 2.0},
+    {"name": "combined_nonlinear", "mechanism": "interaction", "annotation_error": 0.3, "false_negative_rate": 0.4, "ptm_missingness": 0.4, "donor_effect": 2.0}
+  ]
+}

@@ -1,0 +1,9 @@
+﻿"Table 1. Simulation scenarios. In each sweep one factor varies and the others stay at the clean setting; donor-number sweeps used 20, 80 and 160 development donors (40 in the primary grid) under the clean and strong-donor-effect settings."
+Scenario,Mechanism,Covariate corruption,False-negative rate,PTM missingness,Donor-effect SD,Replicates
+clean,linear,0,0,0,0.5,200
+covariate corruption,linear,0.3,0,0,0.5,200
+false negatives,linear,0,0.4,0,0.5,200
+PTM missingness,PTM-dominant,0,0,0.4,0.5,200
+strong donor effect,linear,0,0,0,2,200
+combined,interaction,0.3,0.4,0.4,2,200
+sweeps (one factor varied),linear,0–0.4,0–0.5,0,0.5–3.0,100–200

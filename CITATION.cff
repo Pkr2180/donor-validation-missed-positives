@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics"
+type: software
+authors:
+  - family-names: "Kumar"
+    given-names: "Pradeep"
+version: "1.0.0"
+date-released: 2026-11-08
+license: MIT
+repository-code: https://github.com/Pkr2180/donor-validation-missed-positives
+keywords:
+  - "model evaluation"
+  - "label noise"
+  - "false negatives"
+  - "donor-grouped validation"
+  - "rank agreement"
+  - "simulation"
+  - "Brier skill"

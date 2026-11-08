@@ -1,0 +1,7 @@
+scenario,true_mean_risk,observed_prevalence
+clean_linear,0.427,0.427
+annotation_only,0.427,0.427
+negative_label_only,0.427,0.256
+missing_ptm_only,0.44,0.441
+donor_only,0.444,0.444
+combined_nonlinear,0.448,0.267

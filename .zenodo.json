@@ -1,0 +1,21 @@
+{
+  "title": "Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Kumar, Pradeep"
+    }
+  ],
+  "description": "Code, configurations, run manifests, result tables and figures for the manuscript: Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics.",
+  "keywords": [
+    "model evaluation",
+    "label noise",
+    "false negatives",
+    "donor-grouped validation",
+    "rank agreement",
+    "simulation",
+    "Brier skill"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+,,rank_agreement,selection_regret,best_selected_probability
+clean_linear,random_row,0.9511,0.0006,0.93
+clean_linear,held_out_donor,0.9389,0.0003,0.95
+annotation_only,random_row,0.839,0.001,0.545
+annotation_only,held_out_donor,0.861,0.0005,0.615
+negative_label_only,random_row,0.001,0.0287,0.02
+negative_label_only,held_out_donor,-0.014,0.0273,0.075
+missing_ptm_only,random_row,0.94,0.0006,0.91
+missing_ptm_only,held_out_donor,0.9467,0.0005,0.92
+donor_only,random_row,-0.39,0.0135,0.015
+donor_only,held_out_donor,0.4367,0.0046,0.575
+combined_nonlinear,random_row,-0.573,0.0278,0.0
+combined_nonlinear,held_out_donor,-0.247,0.0214,0.115

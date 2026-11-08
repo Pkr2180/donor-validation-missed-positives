@@ -1,0 +1,11 @@
+scenario,protocol,rank,regret,hit
+donor_0.5,held_out_donor,0.96,0.0002,0.965
+donor_0.5,random_row,0.9322,0.0008,0.905
+donor_1.0,held_out_donor,0.6978,0.0014,0.805
+donor_1.0,random_row,0.4833,0.0065,0.295
+donor_1.5,held_out_donor,0.4211,0.0035,0.58
+donor_1.5,random_row,-0.0978,0.0106,0.01
+donor_2.0,held_out_donor,0.2756,0.0052,0.485
+donor_2.0,random_row,-0.48,0.0135,0.005
+donor_3.0,held_out_donor,0.3444,0.0087,0.545
+donor_3.0,random_row,-0.7833,0.0265,0.0

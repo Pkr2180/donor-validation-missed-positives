@@ -1,0 +1,5 @@
+scenario,protocol,rank,regret,hit
+clean_linear,held_out_donor,0.5689,0.0027,0.69
+clean_linear,random_row,0.8733,0.0013,0.85
+donor_only,held_out_donor,0.4311,0.0059,0.61
+donor_only,random_row,-0.5867,0.0165,0.01

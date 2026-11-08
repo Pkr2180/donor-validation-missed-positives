@@ -1,0 +1,14 @@
+﻿"Table 2. Primary grid (200 replicates per scenario; means over four models). Skill bias is the estimated minus reference Brier skill against a constant forecast of each set's prevalence; rank agreement, regret and the probability of choosing the reference-best model are per replicate and averaged."
+Scenario,Split,True risk,Observed prevalence,Mean bias,MAE,Containment,Skill bias,Rank agreement,Regret,P(best chosen)
+clean,random-row,0.427,0.427,-0.0024,0.008,0.901,0.006,0.95,0.0006,0.93
+clean,held-out-donor,0.427,0.427,-0.0005,0.0074,0.911,-0.001,0.94,0.0003,0.95
+covariate corruption,random-row,0.427,0.427,-0.0024,0.007,0.922,0.007,0.84,0.001,0.55
+covariate corruption,held-out-donor,0.427,0.427,-0.0006,0.0069,0.899,-0.001,0.86,0.0005,0.62
+false negatives,random-row,0.427,0.256,-0.0517,0.0518,0.09,0.003,0,0.0287,0.02
+false negatives,held-out-donor,0.427,0.256,-0.0504,0.0505,0.106,-0.004,-0.01,0.0273,0.08
+PTM missingness,random-row,0.44,0.441,-0.0022,0.0061,0.936,0.007,0.94,0.0006,0.91
+PTM missingness,held-out-donor,0.44,0.441,-0.0005,0.0058,0.905,-0.001,0.95,0.0005,0.92
+strong donor effect,random-row,0.444,0.444,-0.0284,0.0295,0.519,0.108,-0.39,0.0135,0.02
+strong donor effect,held-out-donor,0.444,0.444,-0.0006,0.0168,0.895,-0.028,0.44,0.0046,0.57
+combined,random-row,0.448,0.267,-0.0785,0.0785,0.012,0.107,-0.57,0.0278,0
+combined,held-out-donor,0.448,0.267,-0.068,0.0683,0.181,0.047,-0.25,0.0214,0.12

@@ -1,0 +1,17 @@
+scenario,protocol,model,replicates,mean_bias,mae,rmse,containment,true_mean_risk,observed_prevalence,skill_reference,skill_estimate,skill_bias
+clean_linear,held_out_donor,confidence_weighted_logistic,100,0.00211,0.01247,0.01576,0.89,0.42756,0.42338,0.19103,0.17169,-0.01934
+clean_linear,held_out_donor,expression_only,100,-0.00056,0.01028,0.01267,0.88,0.42756,0.42338,0.13316,0.12473,-0.00843
+clean_linear,held_out_donor,random_forest,100,0.00231,0.00974,0.01326,0.88,0.42756,0.42338,0.16559,0.14533,-0.02026
+clean_linear,held_out_donor,unweighted_logistic,100,0.00211,0.01247,0.01576,0.89,0.42756,0.42338,0.19103,0.17169,-0.01934
+clean_linear,random_row,confidence_weighted_logistic,100,-0.00865,0.01367,0.01719,0.86,0.42756,0.42283,0.20152,0.22944,0.02792
+clean_linear,random_row,expression_only,100,-0.00326,0.01092,0.0133,0.87,0.42756,0.42283,0.13289,0.13801,0.00512
+clean_linear,random_row,random_forest,100,-0.00848,0.01215,0.0155,0.85,0.42756,0.42283,0.1659,0.19273,0.02683
+clean_linear,random_row,unweighted_logistic,100,-0.00865,0.01367,0.01719,0.86,0.42756,0.42283,0.20152,0.22944,0.02792
+donor_only,held_out_donor,confidence_weighted_logistic,100,0.00571,0.03511,0.04316,0.86,0.44627,0.44433,-0.0287,-0.11687,-0.08817
+donor_only,held_out_donor,expression_only,100,0.00055,0.01672,0.02149,0.82,0.44627,0.44433,0.04712,-0.01396,-0.06108
+donor_only,held_out_donor,random_forest,100,0.00168,0.03007,0.03724,0.9,0.44627,0.44433,-0.0255,-0.09779,-0.07229
+donor_only,held_out_donor,unweighted_logistic,100,0.00571,0.03511,0.04316,0.86,0.44627,0.44433,-0.0287,-0.11687,-0.08817
+donor_only,random_row,confidence_weighted_logistic,100,-0.0364,0.03678,0.04479,0.54,0.44627,0.45325,0.02579,0.16012,0.13433
+donor_only,random_row,expression_only,100,-0.00664,0.01139,0.01654,0.9,0.44627,0.45325,0.05434,0.0662,0.01186
+donor_only,random_row,random_forest,100,-0.08339,0.08339,0.08652,0.01,0.44627,0.45325,-0.00555,0.32137,0.32692
+donor_only,random_row,unweighted_logistic,100,-0.0364,0.03678,0.04479,0.54,0.44627,0.45325,0.02579,0.16012,0.13433

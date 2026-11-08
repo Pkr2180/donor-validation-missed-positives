@@ -1,0 +1,16 @@
+{
+  "seed": 29,
+  "replicates": 3,
+  "n_donors": 24,
+  "reference_donors": 60,
+  "rows_per_donor": 20,
+  "bootstrap_draws": 150,
+  "protocols": ["random_row", "held_out_donor"],
+  "models": ["unweighted_logistic", "confidence_weighted_logistic", "expression_only", "random_forest"],
+  "scenarios": [
+    {"name": "clean_linear", "mechanism": "linear", "annotation_error": 0.0, "false_negative_rate": 0.0, "ptm_missingness": 0.0, "donor_effect": 0.5},
+    {"name": "incomplete_interactions", "mechanism": "interaction", "annotation_error": 0.25, "false_negative_rate": 0.35, "ptm_missingness": 0.25, "donor_effect": 1.0},
+    {"name": "strong_donor_effect", "mechanism": "ptm_dominant", "annotation_error": 0.15, "false_negative_rate": 0.2, "ptm_missingness": 0.4, "donor_effect": 2.0}
+  ]
+}
+

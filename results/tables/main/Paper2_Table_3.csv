@@ -1,0 +1,24 @@
+﻿"Table 3. False-negative and donor-effect sweeps (200 replicates per level; means over four models; rank agreement, regret and selection probability are per replicate and averaged)."
+Sweep,Level,Split,Mean bias,Containment,Skill bias,Rank agreement,Regret,P(best chosen)
+False-negative rate,0,random-row,-0.0014,0.934,0.004,0.94,0.0007,0.92
+False-negative rate,0,held-out-donor,0.0007,0.918,-0.004,0.95,0.0005,0.94
+False-negative rate,0.1,random-row,-0.0026,0.919,-0.019,0.82,0.0015,0.42
+False-negative rate,0.1,held-out-donor,-0.0016,0.861,-0.026,0.81,0.0012,0.47
+False-negative rate,0.2,random-row,-0.0109,0.713,-0.026,0.7,0.0059,0.24
+False-negative rate,0.2,held-out-donor,-0.0099,0.759,-0.033,0.68,0.0049,0.32
+False-negative rate,0.3,random-row,-0.0276,0.285,-0.02,0.4,0.0145,0.12
+False-negative rate,0.3,held-out-donor,-0.026,0.356,-0.027,0.36,0.0144,0.14
+False-negative rate,0.4,random-row,-0.0504,0.099,0.001,0.06,0.0267,0.06
+False-negative rate,0.4,held-out-donor,-0.05,0.121,-0.007,-0.06,0.0275,0.06
+False-negative rate,0.5,random-row,-0.0831,0.019,0.03,-0.34,0.0458,0
+False-negative rate,0.5,held-out-donor,-0.0819,0.03,0.021,-0.37,0.0458,0.02
+Donor-effect SD,0.5,random-row,-0.002,0.923,0.006,0.93,0.0008,0.9
+Donor-effect SD,0.5,held-out-donor,-0.0002,0.939,-0.004,0.96,0.0002,0.96
+Donor-effect SD,1,random-row,-0.0106,0.71,0.038,0.48,0.0065,0.3
+Donor-effect SD,1,held-out-donor,-0.0006,0.866,-0.008,0.7,0.0014,0.8
+Donor-effect SD,1.5,random-row,-0.0184,0.614,0.068,-0.1,0.0106,0.01
+Donor-effect SD,1.5,held-out-donor,0.0002,0.878,-0.021,0.42,0.0035,0.58
+Donor-effect SD,2,random-row,-0.0293,0.52,0.111,-0.48,0.0135,0
+Donor-effect SD,2,held-out-donor,-0.0007,0.881,-0.024,0.28,0.0052,0.48
+Donor-effect SD,3,random-row,-0.0488,0.456,0.188,-0.78,0.0265,0
+Donor-effect SD,3,held-out-donor,-0.0006,0.918,-0.03,0.34,0.0087,0.55

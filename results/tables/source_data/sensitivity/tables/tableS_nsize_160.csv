@@ -1,0 +1,17 @@
+scenario,protocol,model,replicates,mean_bias,mae,rmse,containment,true_mean_risk,observed_prevalence,skill_reference,skill_estimate,skill_bias
+clean_linear,held_out_donor,confidence_weighted_logistic,100,0.00037,0.00402,0.00517,0.91,0.42756,0.42734,0.22696,0.22447,-0.00249
+clean_linear,held_out_donor,expression_only,100,0.00041,0.00355,0.00433,0.94,0.42756,0.42734,0.14011,0.13732,-0.00279
+clean_linear,held_out_donor,random_forest,100,0.00016,0.00405,0.0052,0.92,0.42756,0.42734,0.19829,0.19664,-0.00165
+clean_linear,held_out_donor,unweighted_logistic,100,0.00037,0.00402,0.00517,0.91,0.42756,0.42734,0.22696,0.22447,-0.00249
+clean_linear,random_row,confidence_weighted_logistic,100,-0.00101,0.00337,0.00428,0.96,0.42756,0.42619,0.2275,0.23044,0.00294
+clean_linear,random_row,expression_only,100,-0.0003,0.00297,0.0038,0.96,0.42756,0.42619,0.14023,0.14016,-7e-05
+clean_linear,random_row,random_forest,100,-0.00273,0.00387,0.00474,0.93,0.42756,0.42619,0.1987,0.20863,0.00993
+clean_linear,random_row,unweighted_logistic,100,-0.00101,0.00337,0.00428,0.96,0.42756,0.42619,0.2275,0.23044,0.00294
+donor_only,held_out_donor,confidence_weighted_logistic,100,-0.00019,0.00715,0.00877,0.9,0.44627,0.44957,0.10746,0.10336,-0.0041
+donor_only,held_out_donor,expression_only,100,0.0003,0.00466,0.00619,0.97,0.44627,0.44957,0.07208,0.06584,-0.00624
+donor_only,held_out_donor,random_forest,100,-0.00069,0.00821,0.01004,0.9,0.44627,0.44957,0.0607,0.05846,-0.00224
+donor_only,held_out_donor,unweighted_logistic,100,-0.00019,0.00715,0.00877,0.9,0.44627,0.44957,0.10746,0.10336,-0.0041
+donor_only,random_row,confidence_weighted_logistic,100,-0.00532,0.0065,0.00831,0.77,0.44627,0.44202,0.11179,0.13023,0.01843
+donor_only,random_row,expression_only,100,-0.00144,0.0039,0.00505,0.9,0.44627,0.44202,0.07313,0.07565,0.00252
+donor_only,random_row,random_forest,100,-0.03719,0.03719,0.03813,0.0,0.44627,0.44202,0.07278,0.22065,0.14787
+donor_only,random_row,unweighted_logistic,100,-0.00532,0.0065,0.00831,0.77,0.44627,0.44202,0.11179,0.13023,0.01843
