@@ -5,7 +5,7 @@ Code, configurations, run manifests, result tables and figures for the manuscrip
 ## Repository layout
 - `research_common/`, `topic*/`: analysis package (installable with `pip install -e .`)
 - `modal_jobs/`: cloud job scripts (Modal), aggregation scripts, the manuscript builder and the independent audit
-- `results/figures/`: every manuscript figure (PNG and SVG), numbered as in the manuscript and Additional file 1
+- `results/figures/`: every manuscript figure (PNG and LZW TIFF at 600 dpi, vector PDF), numbered as in the manuscript and Additional file 1; redrawn by `modal_jobs/figures_paper*.py`
 - `results/tables/main`, `results/tables/supplementary`: every manuscript table as CSV, numbered as in the manuscript
 - `results/tables/source_data/`: the result tables the manuscript was built from
 - `results/provenance/`: run manifests (package versions, SHA-256 hashes of inputs, code and outputs) and the audit report (PASS 136 | FAIL 0)
@@ -24,19 +24,18 @@ python modal_jobs/audit_topic2.py            # independent audit (needs the raw 
 ```
 
 ## Figure mapping (manuscript number: original result file)
-- Fig1: figures\fig1_bias_by_scenario.png
-- Fig2: figures\fig2_containment.png
-- Fig3: figures\fig3_meta_evaluation.png
-- Fig4: sensitivity\figures\figS8_skill_vs_brier_bias.png
-- Fig5: sensitivity\figures\figS4_false_negative_sweep.png
-- Fig6: sensitivity\figures\figS5_donor_effect_sweep.png
-- Fig7: sensitivity\figures\figS12_mechanism_fn_sweep.png
-- Fig8: sensitivity\figures\figS7_donor_count_containment.png
-- FigS1: sensitivity\figures\figS6_annotation_error_sweep.png
-- FigS2: sensitivity\figures\figS13_mechanism_donor_sweep.png
+- Fig1: figures_pub\Fig1_study_design.png
+- Fig2: figures_pub\Fig2_primary_grid.png
+- Fig3: figures_pub\Fig3_skill_vs_brier.png
+- Fig4: figures_pub\Fig4_false_negative_sweep.png
+- Fig5: figures_pub\Fig5_donor_effect_sweep.png
+- Fig6: figures_pub\Fig6_outcome_mechanisms.png
+- Fig7: figures_pub\Fig7_donor_number.png
+- FigS1: figures_pub\FigS1_primary_grid_by_model.png
+- FigS2: figures_pub\FigS2_covariate_corruption_sweep.png
 
 ## Tables
-- main: Paper2_Table_1.csv, Paper2_Table_2.csv, Paper2_Table_3.csv, Paper2_Table_4.csv, Paper2_Table_5.csv
+- main: Paper2_Table_1.csv, Paper2_Table_2.csv, Paper2_Table_3.csv, Paper2_Table_4.csv
 - supplementary: Paper2_Table_S1.csv, Paper2_Table_S2.csv, Paper2_Table_S3.csv
 
 ## Citation
