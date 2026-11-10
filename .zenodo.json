@@ -4,7 +4,8 @@
   "license": "MIT",
   "creators": [
     {
-      "name": "Kumar, Pradeep"
+      "name": "Yadalam, Pradeep Kumar",
+      "affiliation": "Department of Periodontics, Saveetha Dental College and Hospitals, Saveetha Institute of Medical and Technical Sciences (SIMATS), Chennai, Tamil Nadu, India"
     }
   ],
   "description": "Code, configurations, run manifests, result tables and figures for the manuscript: Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics.",
