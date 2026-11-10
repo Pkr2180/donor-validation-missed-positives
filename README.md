@@ -1,5 +1,7 @@
 # Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24099877.svg)](https://doi.org/10.5281/zenodo.24099877)
+
 Code, configurations, run manifests, result tables and figures for the manuscript *Donor-grouped validation removes optimism but not the ranking errors caused by missed positives: a known-truth simulation of model evaluation in omics* (submitted to BMC Bioinformatics).
 
 ## Repository layout
